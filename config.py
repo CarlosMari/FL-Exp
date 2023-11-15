@@ -1,0 +1,8 @@
+NUM_NODES = 2
+CHUNKING = True
+DATASET = 'cifar10'
+TRAIN_SPLIT = 'train'
+TEST_SPLIT = 'test[:2%]'
+BATCH_SIZE = 256
+NUM_EPOCHS = 5
+SEED = 42
