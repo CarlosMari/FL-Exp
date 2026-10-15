@@ -1,4 +1,18 @@
+# Exchange files between nodes and the central node
 *.b
 *.pickle
-./data/*
-./out/*
+
+# Datasets and outputs (paths are relative to the repo root; "./data/*" never matched)
+data/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
